@@ -1,0 +1,155 @@
+.product-card {
+  width: 315px;
+  background: #fff;
+  border-radius: 28px;
+  padding: 22px 22px 20px 22px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.05);
+  transition: 0.2s ease;
+  border: none !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+
+.product-card__image {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  display: block;
+}
+
+.product-card__content {
+  margin-top: 14px;
+}
+
+.product-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-card__title {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+
+.product-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2b2b2b;
+  line-height: 1;
+  margin: 0;
+}
+
+.product-card__title-span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #a3a3a3;
+}
+
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.counter button {
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 10px;
+  background: #ececec;
+  color: #333;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  line-height: 1;
+}
+
+.counter button:hover {
+  background: #d5d5d5;
+}
+
+.counter span {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  min-width: 20px;
+  text-align: center;
+}
+
+
+.product-card__bottom {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.price {
+  font-size: 20px;      
+  font-weight: 700;
+  color: #222;
+  white-space: nowrap;
+}
+
+
+.cart-btn {
+  flex: 1;
+  height: 44px;        
+  border: none;
+  border-radius: 12px;
+  background: #eaf8ea;
+  color: #36a44d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;    
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 0 10px;
+}
+
+.cart-btn:hover {
+  background: #def3e0;
+}
+
+.cart-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+@media (max-width: 400px) {
+  .product-card {
+    width: 100%;
+    padding: 18px;
+  }
+  
+  .product-card__image {
+    height: 200px;
+  }
+}
+.cart-btn-added {
+  background: #2e7d32 !important; 
+  color: white !important;
+  transition: 0.2s;
+}
+
+.cart-btn-added svg {
+  color: white !important;
+}

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #f8f9fa;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  transition: .2s;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
