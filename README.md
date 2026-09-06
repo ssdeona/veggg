@@ -6,4 +6,5 @@ npm run dev
 
 npm run test
 
-https://quiet-pudding-171684.netlify.app
+
+https://euphonious-pixie-e71edc.netlify.app
